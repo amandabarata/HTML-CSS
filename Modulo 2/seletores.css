@@ -1,0 +1,29 @@
+body {
+    background-color: rgb(159, 187, 187);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: rgb(32, 94, 94);
+}
+
+h2 {
+    color: rgb(31, 154, 154);
+}
+
+#main {
+    text-align: center;
+    background-color: aliceblue;
+    color: black;
+}
+
+.basic{
+    color: beige;
+}
+
+.intermediate{
+    color:blue
+}
+.advanced{
+    color:blueviolet
+}

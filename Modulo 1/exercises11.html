@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Media in HTML</title>
+</head>
+<body>
+
+    <h1>Dynamic Images</h1>
+
+    <p>Try to pen this site em many devices or simply increase or decrease the size of your screen</p>
+
+    <picture>
+        <source media="(max-width: 750px )" srcset="images/imagep.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="images/imagem.png" type="image/png">
+        <img src="images/imageg.png" alt="flexible image">
+    </picture>
+
+    <h1>Playing Audio</h1>
+
+    <p>We are going to learn how play audios in HTML5.</p>
+
+   <!-- <audio src="media/guanacast-33.mp3" controls autoplay></audio>
+    MP3 WAV OGG-->
+
+    <audio preload="metadata" controls>
+        <source src="media/guanacast-33.mp3" type="audio/mpeg"> 
+        <source src="media/guanacast-33.ogg" type="audio/ogg">
+        <source src="media/guanacast-33.mp3" type="audio/wav">
+        <p>Sorry for that, but your browser cannot play these audio <a href="media/guanacast-33.mp3">Click here to download the MP3file</a></p>
+    </audio>
+
+    <h1>Playing Videos locally</h1>
+
+   <video width="500" poster="media/limoes-capa.png" controls>
+<source src="media/meu-video.mp4" type="video/mp4">
+<source src="media/meu-video.m4v" type="video/m4v">
+<source src="media/meu-video.webm" type="video/webm">
+<source src="media/meu-video.ogm" type="video.ogm">
+<p>Your browser there is no compatibility for videos</p>
+   </video>
+
+   <h1>Inserting videos from Youtube</h1>
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/FdE5G95B7Mg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+   <h1>Inserting videos from Vimeo</h1>
+   <iframe src="https://player.vimeo.com/video/197093965?h=7fbc516b5a" width="560" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+
+
+
+
+
+
+
+
+
+
+
+    
+</body>
+</html>

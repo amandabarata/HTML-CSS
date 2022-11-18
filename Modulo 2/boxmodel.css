@@ -1,0 +1,16 @@
+/* EXAMPLE BOX-LEVEL*/
+h1 {
+    background-color: cadetblue;
+    height: 300px;
+    width: 300px;
+    border: 10px solid darkslategray;
+    padding: 10px;
+    margin: 45px;
+}
+
+/* EXAMPLE INLINE-LEVEL*/
+a {
+    border: 10px solid red;
+    padding: 10px;
+
+}
