@@ -17,7 +17,7 @@ color > image > position > repeat > [size] > attachment */
 
 
 
-main {
+main { 
     background-color: white;
     max-width: 700px;
     padding: 10px;
