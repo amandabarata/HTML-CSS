@@ -9,6 +9,9 @@
 html, body {
     min-height: 100vh;
     background-color: darkgray;
+    
+
+    
 }
 
 header {
@@ -20,7 +23,10 @@ header {
 
 header h1 {
     padding-top: 50px;
-    font-variant: small-caps;  
+    font-variant: small-caps; 
+    
+    
+    
     
 }
 
@@ -53,6 +59,8 @@ section {
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
+    
+    
 }
 
 section.image p {
