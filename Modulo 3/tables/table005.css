@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+    border-collapse: collapse;
+    width: 500px;
+}
+
+caption {
+    font-size: 1.3em;
+    font-weight: bolder;
+    padding: 10px;
+    background-color: lightgray;
+    border: 1px solid black;
+}
+
+th, td {
+    border: 2px solid black;
+    text-align: center;
+    padding: 10px;
+}
+
+col.cname {
+    background-color: chartreuse;
+}
+
+col.cgender {
+    background-color: aquamarine;
+}
+
+col.cage, col.cprof {
+    background-color: rgb(195, 127, 255);
+}
+
