@@ -43,8 +43,7 @@ img {
 }
 
 img#phone {
-    display: block;
-}
+    display: block;}
 img#tablet {
     display: none;
 }
